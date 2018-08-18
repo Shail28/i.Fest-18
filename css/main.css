@@ -34,7 +34,7 @@ canvas{
 	text-indent: 4px; 
 	line-height: 14px; 
 	padding-bottom: 2px; 
-	font-family: Helvetica, Arial, sans-serif; 
+	font-family: Montserrat; 
 	font-weight: bold; 
 } 
 
@@ -60,10 +60,11 @@ canvas{
 html{
 	height: 100%;
 	width: 100%;
+	overflow-y: scroll;
 }
 body{
 	height: 100%;
-	font-family: Cambria, Georgia, serif;
+	font-family: Montserrat;
 	background: #f9f9f9 ;
 	font-weight: 300;
 	font-size: 15px;
@@ -123,7 +124,7 @@ div{
 }
 .ifest-content{
 	position: absolute;
-	top: 24%;
+	top: 30%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
@@ -280,15 +281,37 @@ div{
   }
 }
 
-@media(min-width: 768px) and (max-width: 1100px){
+@media(max-width: 1100px){
 	.item{
 		height: 390px;
 		width: 390px;
 	}
 	.ifest-content img{
-		height: 450px;
-		width: 450px;
-		margin-bottom: 20%;
+		height: 400px;
+		width: 400px;
+		margin-bottom: 10%;
+	}
+	.ifest-content1 img{
+		/* padding-top: 7%; */
+		height: 130px;
+		width: 800px;
+	}
+	.ifest-content2{
+		padding-top: 50px;
+		/* height: 130px;
+		width: 800px; */
+	}
+}
+
+@media(max-width: 940px){
+	.item{
+		height: 390px;
+		width: 390px;
+	}
+	.ifest-content img{
+		height: 380px;
+		width: 380px;
+		margin-bottom: 0%;
 	}
 	.ifest-content1 img{
 		/* padding-top: 7%; */
@@ -345,8 +368,11 @@ div{
 		height: 220px;
 		width: 580px;
 	}
+	.ifest-content1{
+		margin-top: -5%;
+	}
 	.ifest-content2{
-		padding-top: 80%;
+		padding-top: 65%;
 	}
 }
 

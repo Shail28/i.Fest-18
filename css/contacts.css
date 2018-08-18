@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 body{
-	font-family: Cambria, Georgia, serif;
+	font-family: Montserrat;
 	font-weight: 300;
 	font-size: 15px;
 	color: #fff;
@@ -52,7 +52,7 @@ body{
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	text-align: center;
-	font-family: 'Open Sans', Arial, sans-serif;
+	font-family: Montserrat;
 }
 .box{
 	width: 90%;
@@ -145,6 +145,9 @@ input[type=submit]:hover {
     width: 50%;
     margin-top: 6px;
     padding: 20px;
+}
+.colum form{
+	font-family: Montserrat;
 }
 
 /* Clear floats after the columns */

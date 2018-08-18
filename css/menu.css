@@ -27,7 +27,8 @@
 	height: 40px;
 	width: 40px;
 	float: left;
-	margin-left: 22px;
+	margin-left: 7px;
+	margin-top: 5px;
 }
 .toggle-menu{
 	display: block;
@@ -88,6 +89,13 @@
 		margin:0px  0px;
 	}
 }
+@media(max-width:940px){
+	.menuItem{
+		font-size: 12px;
+		min-width: 70px;
+		margin:0px  0px;
+	}
+}
 
 @media (max-width: 768px){
 	.nav-div{
@@ -109,7 +117,8 @@
 	.menuItem{
 		padding: 20px 15px;
 		width: 100%;
-		border-bottom:2px #fff solid ;
+		border-bottom:1px #fff solid ;
+		font-size: 15px;
 		border-top:none;
 		border-left:none;
 		border-right:none;
@@ -150,6 +159,7 @@
 	}
 	.menuOpen{
 		display: block;
+		margin-bottom: 50%;
 		left: 0vw;
 		opacity: 1;
 		transition: all 1s ease;
@@ -177,12 +187,16 @@
 	}
 }
 
+::-webkit-scrollbar {
+	width: 0px;
+}
+
 /*Footer*/
 footer{
 	color: #EEE;
   	background: rgba(0,0,0,0.8);
 	padding: 0px;
-	font-family: Lato;
+	font-family: Montserrat;
 	position: fixed;
 	bottom: 0;
 	text-align: center;

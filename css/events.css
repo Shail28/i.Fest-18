@@ -11,13 +11,13 @@ html{
 body{
 	height: 100%;
 	height: 100%;
-	font-family: Cambria, Georgia, serif;
+	font-family: Montserrat;
 	background: #f9f9f9 ;
 	font-weight: 300;
 	font-size: 15px;
 	color: #333;
 	-webkit-font-smoothing: antialiased;
-	overflow-y: scroll;
+	/* overflow-y: scroll; */
 }
   .container{
   	height: 100%;
@@ -28,10 +28,11 @@ body{
 	background: #000;	
 	background-size: contain;
 	background-size: 100% 100%;
-	overflow: hidden;
+	overflow-y: scroll;
 	width: 100%;
 	height: 100%;
-  }
+ }
+ 
   #first-view{
 	display: block;
 	position: relative;
@@ -57,12 +58,12 @@ body{
 	/* background-color: #2a2a2a; */
 	text-transform: uppercase;
 	/* display: inline-block; */
-	height:20%;
-	position: absolute;
+	height:10%;
+	position: relative;
 	left: 0px;
-	overflow-y: hidden;
-	overflow-x: hidden;
-	z-index: 11;
+	/* overflow-y: hidden;
+	overflow-x: hidden; */
+	z-index: 20;
 }
 .clubList{
 	list-style: none;
@@ -72,20 +73,25 @@ body{
 }
 .clubList li{
 	display: inline;
+	margin-right: 2%;
 }
 .clubName{
 	padding:20px;
 	cursor: pointer;
+	border: 2px solid #0d7cb1;
+	border-radius: 20%;
 }
 .clubName:hover{
 	background-color: rgba(80, 80, 80, 0.767);
+	border-color: #fff;
+	color: #0d7cb1;
 }
 .eventName:hover{
 	background-color: rgba(80, 80, 80, 0.767);
 }
 .events{
 	color: #fff;
-	padding: 3em 2em 0em;
+	padding: 0em 2em 0em;
 	font-family: Montserrat;
 	float: left;
 	text-align: center;
@@ -93,7 +99,7 @@ body{
 	height: 100%;
 	position: absolute;
 	right: 0;
-	overflow-y: auto;
+	/* overflow-y: scroll; */
 	overflow-x: hidden;
 	z-index: 10;
 }
@@ -156,7 +162,7 @@ body{
 	height: 350px;
 	padding: 0.5em 1em;
 	text-align: left;
-	font-family: Lato;
+	font-family: Montserrat;
 	display: block;
 }
 .description{
@@ -170,7 +176,7 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 20px;
-	margin-bottom: 13%;
+	margin-bottom: 3%;
 }
 .description .collapsible {
     background-color: #FFF;
@@ -220,7 +226,7 @@ body{
 		padding: 0px;
 		border: none;
 		font-size: 15px;
-
+		margin-bottom: 15%;
 		
 	}
     .eventDescription .description p{
@@ -248,7 +254,7 @@ body{
 		margin-right: auto;
 		/* border: 2px solid #fff; */
 		height: auto;
-		margin-top: 5em;
+		margin-top: 1em;
 		padding-top: 0;
 	}
 	.clubList{
@@ -257,11 +263,11 @@ body{
 	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 		z-index: 10;
 		margin-top: 0%;
+		margin-right: 25%;
 	}
 
-	.clubName img{
-		height: 50px;
-		width: 50px;
+	.clubName {
+		border: none;
 	}
 
 	.clubDropdown{
@@ -293,6 +299,7 @@ body{
 		display: block;
 		width: 100%;
 		padding: 2em 0.7em 0em;
+		/* margin-bottom: 10%; */
 	}
 	.events h1{
 		display: none;
@@ -301,7 +308,9 @@ body{
 		margin: 0px;
 		position: relative;
 		width: 100%;
-		height:410px;
+		height: auto;
+		overflow-y: scroll;
+		/* margin-bottom: 10%; */
 	}
 	.eventList{
 		display: flex;
@@ -329,7 +338,7 @@ body{
 		max-height: 350px;
 		padding: 3em 1em;
 		text-align: left;
-		font-family: Lato;
+		font-family: Montserrat;
 		display: block;
 }
 	}

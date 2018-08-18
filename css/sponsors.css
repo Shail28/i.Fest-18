@@ -5,14 +5,15 @@
 	box-sizing: border-box;
 }
 body{
-	font-family: Cambria, Georgia, serif;
+	font-family: Montserrat;
 	font-weight: 300;
 	font-size: 15px;
 	color: #fff;
 	-webkit-font-smoothing: antialiased;
 	overflow-y: scroll;
 	overflow-x: hidden;
-	background: #000; background-size: contain;
+	background: #000; 
+	background-size: contain;
 	background-attachment:  fixed;
 }
 .container{
@@ -20,7 +21,7 @@ body{
 	width: 100%;
 	position: relative;
 	text-align:center;
-	
+	margin-bottom: 5%;
 }
 #first-view{
 	display: block;
@@ -38,11 +39,7 @@ body{
 	background-color: transparent; 
 	background-repeat: no-repeat; 
 	background-size: cover;
-}
-@media(max-width: 1024px){
-	.container{
-		padding-top:  20%;
-	}
+	z-index: 0;
 }
 .spon-grid{
 	margin-left: 15%;
@@ -52,21 +49,39 @@ body{
 	text-align: center;
 	width: 70%;
 	background-color: #fff;
+	
 }
 .spon-grid li{
-	width: 280px;
-	height: 140px;
+	width: 300px;
+	/* height: 150px; */
 	display: inline-block;
 	margin: 30px 20px;
-	background-color: #fff;
+	z-index: 10;
+	color: #000;
+	font-size: 15px;
+	font-weight: 550;
+	/* background-color: #fff; */
 }
 .spon-grid li img{
-	height: 140px;
+	height: 100px;
 	max-width: 100%;
+	/* z-index: 10; */
 }
-@media(max-width: 576px){
+#first-view .spon-grid a{
+	z-index: 10;
+}
+@media(max-width: 1024px){
+	.container{
+		padding-top:  20%;
+	}
+}
+@media(max-width: 650px){
 	.spon-grid li{
-		margin: 30px auto;
-		width: 70%;
+		/* margin: 20px auto; */
+		width: 80%;
+	}
+	.spon-grid li img{
+		height: auto;
+		width: 100%;
 	}
 }

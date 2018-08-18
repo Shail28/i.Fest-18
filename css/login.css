@@ -12,7 +12,7 @@ html,body{
 body{
 	position: relative;
 	height: 100%;
-	font-family: Cambria, Georgia, serif;
+	font-family: Montserrat;
 	background: #f9f9f9 ;
 	font-weight: 300;
 	font-size: 15px;
@@ -83,11 +83,12 @@ div{
 	display: inline-block;
 	text-align: center;
 	  vertical-align: middle;
-	  font-family: Lato;
+	  font-family: Montserrat;
 	  background: #fff;
 	  border-radius: 10px;
 	  padding-top: 20px;
 	  padding-bottom: 30px;
+	  z-index: 100;
 
 }
 @media(max-width: 1024px){
@@ -105,7 +106,7 @@ div{
 }
 .textfieldLabel{
 	top: 0;
-	font-family: Lato;
+	font-family: Montserrat;
 	color: #fff;
     position: absolute;
     font-size: 20px;
@@ -140,7 +141,7 @@ input[type=text]:focus {
 }
 .title {
 	text-align: left;
-	font-family: Lato;
+	font-family: Montserrat;
 	font-size: 1.2em;
 	margin-bottom: 10px;
 	color: #000;
@@ -196,7 +197,7 @@ input[type = "submit"]:hover {
 .warningName, .warningEmail,.warningNames, .warningCity, .warningPhone, .warningCollege {
 	display: none;
 	color: rgba(255, 0, 0, 0.8);
-	font-family: cat;
+	font-family: Montserrat;
 	font-size: 1.0em;
 	float: left;
 	clear: both;
@@ -207,7 +208,7 @@ input[type = "submit"]:hover {
 .warningYear, .warningEvent, .warningGender {
 	display: none;
 	text-decoration: none;
-	font-family: cat;
+	font-family: Montserrat;
 	font-size: 1.0em;
 	color: rgba(255, 0, 0, 0.8);
 	clear: both;

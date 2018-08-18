@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 body{
-	font-family: Cambria, Georgia, serif;
+	font-family: Montserrat;
 	font-weight: 300;
 	font-size: 15px;
 	color: #fff;
@@ -56,7 +56,7 @@ body{
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	font-family: 'Open Sans', Arial, sans-serif;
+	font-family: Montserrat;
 }
 .titleTeam{
 	padding: 20px;
@@ -64,7 +64,7 @@ body{
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	font-family: 'Open Sans', Arial, sans-serif;
+	font-family: Montserrat;
 }
 
 .cont-grid{
@@ -152,7 +152,7 @@ body{
 	font-size: 10px;
 	margin: 0 20px;
 	padding: 65px 0 0 0;
-	height: 110px;
+	height: 100px;
 	font-family: Montserrat;
 }
 .info p {
@@ -164,6 +164,20 @@ body{
 	font-size: Lato;
 	border-top: 1px solid rgba(255,255,255,0.5);
 }
+.info a{
+	/* color: #fff; */
+	text-decoration: unset;
+}
+.info .fa-facebook{
+	color: #3B5998;
+}
+.info .fa-instagram{
+	color: #cd486b;
+}
+.info .fa-envelope-o{
+	color: rgb(24, 0, 161);
+}
+
 .user:hover {
 	background-color: black;
 }
