@@ -133,8 +133,8 @@
   }
 
   50% {
-    -webkit-transform: scale3d(1.15, 1.15, 1.15);
-    transform: scale3d(1.15, 1.15, 1.15);
+    -webkit-transform: scale3d(1.12, 1.12, 1.12);
+    transform: scale3d(1.12, 1.12, 1.12);
   }
 
   to {
@@ -150,8 +150,8 @@
   }
 
   50% {
-    -webkit-transform: scale3d(1.15, 1.15, 1.15);
-    transform: scale3d(1.15, 1.15, 1.15);
+    -webkit-transform: scale3d(1.12, 1.12, 1.12);
+    transform: scale3d(1.12, 1.12, 1.12);
   }
 
   to {
@@ -182,8 +182,8 @@
   }
 
   50% {
-    -webkit-transform: scale3d(1.15, 0.85, 1);
-    transform: scale3d(1.15, 0.85, 1);
+    -webkit-transform: scale3d(1.12, 0.82, 1);
+    transform: scale3d(1.12, 0.82, 1);
   }
 
   65% {
